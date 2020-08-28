@@ -37,6 +37,7 @@ dependencies:
   mockito: ^4.1.1
   scoped_model: ^1.0.1
   connectivity: ^0.4.9
+  mpesa: ^1.0.0
 
 
   # The following adds the Cupertino Icons font to your application.

@@ -1,3 +1,4 @@
+import 'package:churchapp/mpesa/mpesa_page.dart';
 import 'package:churchapp/screens/booked_successful.dart';
 import 'package:churchapp/screens/navigation_bar.dart';
 import 'registration/login_screen.dart';
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
         'Home': (context) => SurveyQuiz(),
         'Survey': (context) => SurveyQuiz(),
         'MyNavBar': (context) => MyNavBar(),
-        'BookedSuccess': (context) => BookedSuccess(), //add this to routes
+        'BookedSuccess': (context) => BookedSuccess(),
+        'mpesa': (context) => MpesaPage(),//add this to routes
       },
     );
   }
